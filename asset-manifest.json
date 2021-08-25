@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/heroloTestDeploy/static/js/main.7c3e6d4d.chunk.js",
-    "main.js.map": "/heroloTestDeploy/static/js/main.7c3e6d4d.chunk.js.map",
+    "main.js": "/heroloTestDeploy/static/js/main.9773a5b5.chunk.js",
+    "main.js.map": "/heroloTestDeploy/static/js/main.9773a5b5.chunk.js.map",
     "runtime-main.js": "/heroloTestDeploy/static/js/runtime-main.46e8dcc6.js",
     "runtime-main.js.map": "/heroloTestDeploy/static/js/runtime-main.46e8dcc6.js.map",
     "static/js/2.07e7c518.chunk.js": "/heroloTestDeploy/static/js/2.07e7c518.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.46e8dcc6.js",
     "static/js/2.07e7c518.chunk.js",
-    "static/js/main.7c3e6d4d.chunk.js"
+    "static/js/main.9773a5b5.chunk.js"
   ]
 }
