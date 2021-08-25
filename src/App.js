@@ -43,10 +43,7 @@ const useStyles = makeStyles((theme) => ({
 function App() {
   const classes = useStyles();
 
-  const [searchCity, setSearchCity] = useState("");
   const [darkMode, setDarkMode] = useState(false);
-
-  const citiesListSelector = useSelector((state) => state.searchCityReducer);
 
   const dispatcher = useDispatch();
   const weatherSelector = useSelector((state) => state.weatherReducer);
@@ -111,7 +108,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline>
-        <Router>
+        <Router exact path="/heroloTestDeploy">
           <Header />
           {darkMode ? (
             <Brightness5Icon
@@ -128,7 +125,7 @@ function App() {
             {weatherSelector.isLoading ? (
               <CircularProgress />
             ) : (
-              <Route exact path="/">
+              <Route exact path="/heroloTestDeploy">
                 <Grid
                   container
                   alignItems="center"

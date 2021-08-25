@@ -1,13 +1,13 @@
 export const serverWeatherEnums = {
   API_5DAYS_FORECAST:
-    "http://dataservice.accuweather.com/forecasts/v1/daily/5day/",
+    "https://dataservice.accuweather.com/forecasts/v1/daily/5day/",
   API_SEARCH_CITY_BY_NAME:
-    "http://dataservice.accuweather.com/locations/v1/cities/autocomplete?",
+    "https://dataservice.accuweather.com/locations/v1/cities/autocomplete?",
   API_GET_CITY_CODE_BY_COORDS:
-    "http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?",
+    "https://dataservice.accuweather.com/locations/v1/cities/geoposition/search?",
   API_QUERY: "&q=",
-  API_ICON_LINK: "http://vortex.accuweather.com/adc2010/images/slate/icons/",
-  APIKEY: "apikey=aC8oF8g9vFp0btVgfIoUWraDGxg9wzfs", //82wlG9JjzQNJP541H4OrA2MTf0QUdtQQ 0Y8GLoSIGE5yAoCgFDRIpgGWvmuVSbEt KH4xCBocadcFUgnltQQpwxRuhlkC6hN7 CRNSzYam8pLh3ipjIticESxBJITeKfa0
+  API_ICON_LINK: "https://vortex.accuweather.com/adc2010/images/slate/icons/",
+  APIKEY: "apikey=jLMc5cduIdwlcXOpx7os5VopnXqUldFt",
   TEMPERATURE: "&metric=true", // Celsuis
   HAIFA_KEY: "213181",
   QUESTION_MARK: "?",

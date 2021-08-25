@@ -86,7 +86,7 @@ export default function Header(props) {
               className={classes.button}
               color="inherit"
               onClick={() => {
-                history.push("");
+                history.push("/heroloTestDeploy");
               }}
             >
               Home 🏡
@@ -95,7 +95,7 @@ export default function Header(props) {
               className={classes.button}
               color="inherit"
               onClick={() => {
-                history.push("favorites");
+                history.push("/favorites");
               }}
             >
               Favorites 💖
